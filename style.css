@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+ 
+}
+#header{
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#section{
+   display: none ;
+   position: fixed;
+   top: 7.5%;
+   width: 100%;
+} 
+#footer{
+   display: none;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+} 
+
+img[alt="logo"]{
+    height:5vh ;
+    width: 8vw;
+    padding: 3px 5px;
+
+}
+nav{ 
+    height: 50px;
+    border-bottom: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.882);
+}
+.unorder{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listA{
+
+   color: #ffffff;
+   padding: 1px 50px;
+   font-size: 20px;
+   font-weight: 600;
+   margin-top: -2%;
+    
+}
+img[alt="roseimg"]{
+    height: 63vh;
+    width: 100%;
+    position: relative;
+}
+.btn{
+    position: absolute;
+    top: 45%;
+}
+#btn1{
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 16px;
+    padding: 5px 8px;
+    color: rgb(175, 227, 255);
+    background-color: rgba(0, 0, 0, 0.69);
+}
+.footer1{
+    color: #ffffff;
+    background-color:  rgba(0, 0, 0, 0.927);
+    height: 29vh;
+}
+img[alt="lastLogo"]{
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 6vh;
+}
+.awe{
+    display: flex;
+}
+.awe1{
+    border-radius: 50%;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.para6{
+    margin-left: 33px;
+    margin-top: 20px;
+    color: #aab5e0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.rightSection{
+    margin-left: 30%;
+    margin-top: -180px;
+
+}
+.rightSectionA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.unorderA{
+    list-style: none;
+}
+.list1{
+    margin-right: 160px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #8e98c0;
+}
+.list2{
+    margin-right: 80px;
+    font-size: 22px;
+    font-weight: 550;
+    line-height: 38px;
+    color: #d2d9f4;
+}
+   
